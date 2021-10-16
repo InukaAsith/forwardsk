@@ -9,7 +9,7 @@ from pyrogram.errors import RPCError
 
 import functools
 from typing import Callable, Coroutine, Dict, List, Tuple, Union
-from pyromod import listen
+
 
 
 @bot.on_message(~filters.private)
